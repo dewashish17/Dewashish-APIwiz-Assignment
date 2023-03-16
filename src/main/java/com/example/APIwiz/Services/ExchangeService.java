@@ -19,7 +19,7 @@ public class ExchangeService {
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
-        connection.setRequestProperty("apikey", "EQ30kVXEYsIQIvhdejaAgCiP41ejCVj4");
+        connection.setRequestProperty("apikey", "###API_KEY HERE###");
 
         BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
         String inputLine;
