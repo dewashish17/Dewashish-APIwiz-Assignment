@@ -11,7 +11,6 @@ You have data of INR values like this 79,80,82,81,82.5,84.3,85.6,81.7,80,80
 These are sample INR currency values from the past 10 days, and I want to predict INR value on some dd-mm-yyyy date , based on these values I'll predict 81.7 as dd-mm-yyyy day’s INR’s value.
 Like this you need to store past 30 days in your db and retrieve data whenever the predict end point is being triggered and show the predicted currency value based on past 30days INR value.
 Sample curl for conversion end point 
-
 			curl --location --request GET 'http://localhost:8000/currency/exchange’ \
 
 			--header ‘base: 2 USD’ \
