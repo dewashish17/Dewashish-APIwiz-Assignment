@@ -37,3 +37,12 @@ Sample response
 		“predictedValue”:”81.7 INR”
 
 	}
+	
+	
+# ScreenShot 
+## for Exchange API
+![image](https://user-images.githubusercontent.com/91001502/225744115-779fb1e1-b5f9-4c4e-a409-7b752f4e8f16.png)
+
+## for predict API
+![image](https://user-images.githubusercontent.com/91001502/225743888-960c4ce6-8d40-44be-b8a2-3d1fd84b169e.png)
+
